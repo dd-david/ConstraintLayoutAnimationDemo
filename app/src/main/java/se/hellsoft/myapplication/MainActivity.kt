@@ -15,6 +15,11 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
   /*
   * Todo: Kotlin 에서 타입 뒤에 따라붙은 '?'은 어떤 의미인지 확인해보자
+  *       Optional(Nullable)
+  *       자료형으로 null 참조를 할 수 있는것과/없는것으로 구분됩니다
+  *       타입을 검사하고 > null 여부를 확인하고 > 그 시점에 해당 자료형으로 형변환 합니다
+  *       일반적으로 Optional 이라고 불리고, Kotlin 에서는 Nullable 이라고 합니다
+  *
   * Todo: 코드에서 변수이름 아래에 언더라인이 붙는 이유는 무엇인지 확인해보자
   *
   * */
